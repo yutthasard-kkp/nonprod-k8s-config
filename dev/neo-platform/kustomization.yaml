@@ -6,7 +6,7 @@ configMapGenerator:
   - name: payment-service
     namespace: nonprod-neo-platform
     envs:
-      - ./payment-service/.env
+      - payment-service/.env
 
 # Generator Option
 generatorOptions:
