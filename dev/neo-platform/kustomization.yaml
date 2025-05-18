@@ -7,6 +7,11 @@ configMapGenerator:
     namespace: nonprod-neo-platform
     envs:
       - payment-service/.env
+  ################# KYC Service #################
+  - name: kyc-service
+    namespace: nonprod-neo-platform
+    envs:
+      - payment-service/.env
 
 # Generator Option
 generatorOptions:
