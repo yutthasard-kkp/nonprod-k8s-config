@@ -4,12 +4,12 @@ kind: Kustomization
 configMapGenerator:
   ################# Payment Service #################
   - name: payment-service
-    namespace: nonprod-neo-platform
+    namespace: neo-payment
     envs:
       - payment-service/.env
   ################# KYC Service #################
   - name: kyc-service
-    namespace: nonprod-neo-platform
+    namespace: neo-payment
     envs:
       - payment-service/.env
 
